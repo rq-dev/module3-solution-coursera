@@ -112,4 +112,5 @@ body {
 }
 #first_link, #second_link {
     border-bottom: 1px solid black;
+    color: yellow;
 }
