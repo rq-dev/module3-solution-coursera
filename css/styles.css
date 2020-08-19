@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: maroon;
+    font-family: 'Oswald', sans-serif;
+}
+
+#header-nav {
+    background-color: lawngreen;
+    padding: 0;
+    border: 3px solid black;
+    color: yellow;
+    margin-bottom: 15px;
+}
+
+.navbar-brand {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    text-shadow: 3px 3px black;
+}
+
+.navbar-collapse {
+    border-top: 1px solid black;
+}
+
+.navbar-brand h1 {
+    color: red;
+    padding: 5px;
+}
+
+#header-nav .container-fluid {
+    margin-top: 5px;
+    width: 100%;
+    padding: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+#menu {
+    float: right;
+    padding: 10px;
+    margin: 5px 5px auto 5px;
+    border: 2px solid red;
+}
+
+#menu:hover, #menu:focus, #menu:active {
+    border: 2px solid red;
+    background-color: maroon;
+}
+
+.navbar-header {
+    width: 100%;
+}
+.nav-item a:hover, a:focus {
+    background-color: darkred;
+    /*border: 1px solid black;*/
+}
+.nav-item a {
+    /*text-align: center;*/
+}
+
+#our_menu {
+    font-size: 2.5em;
+    color: chartreuse;
+    text-shadow: 2px 2px black;
+    margin-bottom: 3%;
+}
+
+#main_content {
+    padding: 0;
+    margin: 0 0% 0 0%;
+    align-self: center;
+    position: relative;
+}
+
+/*.col-md-4 {*/
+/*    -ms-flex: 0 0 31.333333%;*/
+/*    flex: 0 0 31.333333%;*/
+/*    max-width: 31.333333%;*/
+/*}*/
+#rows {
+    width: 100%;
+
+}
+.main_grid_text {
+    background-color: chartreuse;
+    padding: 2%;
+    border: 3px solid black;
+    position: relative;
+    height: 1000px;
+    margin: 0 1% 2% 1%;
+
+}
+.box {
+    position: relative;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.5em;
+    clear: both;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.text {
+    margin-top: 5px;
+    clear: both;
+}
+#first_link, #second_link {
+    border-bottom: 1px solid black;
+}
