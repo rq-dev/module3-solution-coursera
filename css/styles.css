@@ -112,5 +112,11 @@ body {
 }
 #first_link, #second_link {
     border-bottom: 1px solid black;
+    color: black;
+}
+#third_link {
+    color: black;
+}
+#first_link:hover, #second_link:hover, #third_link:hover {
     color: yellow;
 }
