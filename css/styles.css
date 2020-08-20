@@ -105,8 +105,10 @@ body {
 
 }
 .text {
-    margin-top: 5px;
+    margin: 5px 1% 0 1%;
     clear: both;
+    padding: 2%;
+
 }
 #first_link, #second_link {
     border-bottom: 1px solid black;
